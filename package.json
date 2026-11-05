@@ -1,0 +1,17 @@
+{
+  "name": "puertas-abiertas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Puertas Abiertas - Portal de alquileres con Neon + Vercel",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static + API ready for Vercel'"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4",
+    "@vercel/blob": "^0.27.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
